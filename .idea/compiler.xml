@@ -6,8 +6,36 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="hidinghero" />
+        <module name="fxgl-samples" />
+        <module name="fxgl-core" />
+        <module name="fxgl-io" />
+        <module name="fxgl-entity" />
+        <module name="fxgl-gameplay" />
+        <module name="fxgl-test" />
+        <module name="fxgl-tools" />
+        <module name="fxgl-zdeploy" />
+        <module name="fxgl" />
+        <module name="fxgl-controllerinput" />
+        <module name="fxgl-scene" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="test" target="15" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="fxgl" options="--module-version 17+dev-SNAPSHOT" />
+      <module name="fxgl-controllerinput" options="--module-version 17+dev-SNAPSHOT" />
+      <module name="fxgl-core" options="--module-version 17+dev-SNAPSHOT" />
+      <module name="fxgl-entity" options="--module-version 17+dev-SNAPSHOT" />
+      <module name="fxgl-gameplay" options="--module-version 17+dev-SNAPSHOT" />
+      <module name="fxgl-io" options="--module-version 17+dev-SNAPSHOT" />
+      <module name="fxgl-samples" options="--module-version 17+dev-SNAPSHOT" />
+      <module name="fxgl-scene" options="--module-version 17+dev-SNAPSHOT" />
+      <module name="fxgl-test" options="--module-version 17+dev-SNAPSHOT" />
+      <module name="fxgl-tools" options="--module-version 17+dev-SNAPSHOT" />
+      <module name="fxgl-zdeploy" options="--module-version 17+dev-SNAPSHOT" />
+    </option>
   </component>
 </project>
